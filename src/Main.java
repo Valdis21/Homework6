@@ -51,5 +51,6 @@ public class Main {
         for (int f = 1; f <= 10; f++) {
             System.out.println(number + " * " + f + " = " + number * f);
         }
+
     }
 }
