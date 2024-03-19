@@ -37,12 +37,20 @@ public class Main {
             System.out.println(e);
         }
 
-        // Задача 8 и 9
+        // Задача 8
         int saving = 29000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total / 100;
             total = total + saving;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
+        }
+
+        // Задача 9
+        saving = 29000;
+        total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + saving;
+            total = total + total / 100;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей");
         }
 
